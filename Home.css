@@ -1,0 +1,173 @@
+/* Fonte importada */ 
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+nav {
+    position: sticky;
+    height: 65px;
+    background: #f2e205;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+    
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 0 1.5rem;
+    font-weight: bold;
+    margin-right: 8px;
+    transition: 0.2s;
+}
+
+nav a:hover{
+    background-color:#decf04;
+    border-radius: 3px;
+}
+
+.hero {
+    height: 88.5vh;
+    background-image: url('Imagens/bank.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    padding: 3rem calc((100vw - 1300px) / 2);
+    z-index: 1; /* Coloca o conteúdo acima da imagem */
+    position: relative;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.card {
+    margin-left: 25px;
+    max-width: 500px;
+    height: 400px;
+    background: #ffffffc5;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+    z-index: 1;
+    position: relative;
+    box-shadow: 0 0 10px 20px rgba(148, 108, 8, 0.03);
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #000;
+    padding: 0 2rem;
+}
+
+.column-left h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.column-left p {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+a.button {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    color: #f2e205;
+    background: #000;
+    text-align: center;
+    border-radius: 50px;
+    display: inline-block; 
+    text-decoration: none; 
+    display: inline-block; /* Para se comportar como um bloco */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: 0.3s;
+}
+
+a.button:hover {
+    background: #f2e205;
+    color: #000;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column; 
+        height: auto; /* Ajusta a altura */
+        font-size: small;
+        width: 100%;
+    }
+
+    nav a {
+        padding: 0.3rem 0; /* Ajusta o padding dos links para telas pequenas */
+    }
+    .card {
+        padding: 1rem; /* Reduz o padding do card em telas pequenas */
+        align-items: center;
+        position: relative;
+        justify-content: center;
+        margin-top: -30px; 
+        margin-left: 15px;
+
+    }   
+}
+
+@media screen and (max-width: 480px) {
+    .column-left h1 {
+        font-size: 2rem; /* Ajusta ainda mais para telas pequenas */
+    }
+
+    .column-left p {
+        font-size: 1rem; /* Ajusta ainda mais para telas pequenas */
+    }
+
+    nav a {
+        padding: 0.3rem 0; /* Ajusta o padding dos links para telas pequenas */
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .page {
+        height: 170vh;
+    }
+
+    img {
+        width: 100%;
+        margin-bottom: 0px; 
+    }
+
+    .card {
+        width: 100%; 
+        padding: 20px; 
+    }
+}

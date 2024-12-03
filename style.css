@@ -1,0 +1,164 @@
+/* Fonte importada */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+/* Alteração de configurações básicas e fonte */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif;
+    background-image: url('Imagens/Fundo.png'); 
+    background-size: cover; 
+    background-position: center; 
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+}
+
+
+/* Configuração de Div (disposição, tamanho e fundo) */
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+/* Configuração do fundo branco (tamanho, fundo, bordas e efeito) */
+.card {
+    width: 90%; 
+    max-width: 450px;
+    height: auto;
+    background: #fff;
+    padding: 34px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 20px rgba(148, 108, 8, 0.03);
+}
+
+/* Configuração dos formulários (disposição) */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Configuração do H2 */
+h2 {
+    text-align: center;
+    color: #204f8c;
+}
+
+.texto {
+    color: #204f8c;
+}
+
+a{
+    margin-top: 5px;
+}
+/* Configuração dos formulários (bordas, transição, tamanho e cor) */
+.campo {
+    padding: 20px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    transition: all linear 190ms;
+    font-size: 0.9em;
+    color: #444;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+.campo::placeholder {
+    color: #666;
+}
+
+.campo:focus {
+    border-color: #f2e205;
+}
+
+/* Configuração do botão */
+.btn {
+    padding: 15px;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    margin-top: 20px;
+    border-radius: 7px;
+    background-color: #204f8c;
+    cursor: pointer;
+    transform: all linear 190ms;
+    align-content: center;
+    display: inline-block; 
+    text-decoration: none; 
+    transition: 0.3s;
+}
+
+/* Hover do botão */
+.btn:hover {
+    transform: scale(1.04);
+    background-color: #11376A;
+}
+
+/* Media Queries - Responsividade */
+
+/* Mobile */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column; 
+        height: auto; /* Ajusta a altura */
+        font-size: small;   
+    }
+
+    nav a {
+        padding: 10px; 
+        margin: 0; 
+    }
+    .page {
+        height: 140vh;
+    }
+
+    img {
+        width: 70%; 
+        margin-bottom: 0px; 
+        position: relative;
+        align-content: center;
+    }
+
+    .card {
+        width: 70%; 
+        padding: 1rem; 
+    }
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+    .page {
+        height: auto;
+    }
+
+    img {
+        width: 70%;
+        margin-bottom: 0px; 
+    }
+
+    .card {
+        width: 70%; 
+        padding: 20px; 
+    }
+}
+
+@media (min-width:768px) {
+    .page {
+        height: 100;
+    }
+
+    img {
+        width: 100%;
+        margin-bottom: 0px; 
+    }
+
+    .card {
+        width: 100%; 
+        padding: 20px; 
+    }
+}

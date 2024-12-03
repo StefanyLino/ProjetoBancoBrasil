@@ -1,0 +1,267 @@
+/* Resetando estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Definindo variáveis para cores e fontes */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    /* --background-color: #ecf0f1; */
+    --text-color: #333;
+    --error-color: #e74c3c;
+    --success-color: #2ecc71;
+    --font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos globais */
+body {
+    font-family: var(--font-family);
+    /* background-image: url('Imagens/Fundo.png');  */
+    /* Caminho da imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-attachment: fixed; /* Faz a imagem ficar fixa ao rolar a página */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Garantir que o fundo cubra toda a altura da janela */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para cabeçalhos */
+h2 {
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para formulários */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--secondary-color);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos para tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+/* Estilos para imagens */
+.thumbnail {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.update-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/* Estilos para mensagens */
+.message {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.success {
+    background-color: var(--success-color);
+    color: #fff;
+}
+
+.error {
+    background-color: var(--error-color);
+    color: #fff;
+}
+
+/* Estilos para links */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/* Estilos para o menu principal */
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    display: block;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos para ações na tabela */
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions a {
+    padding: 5px 10px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.actions a:hover {
+    background-color: #2980b9;
+}
+
+/* Estilo para o botão de voltar */
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #34495e;
+}
+
+/* Estilos para ações na tabela */
+table td a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 2px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+table td a:hover {
+    background-color: #2980b9;
+}
+
+/* Estilo específico para o botão Excluir */
+table td a:last-child {
+    background-color: #e74c3c;
+}
+
+table td a:last-child:hover {
+    background-color: #c0392b;
+}
+
+/* ______________________________________________________________________ */
+/* Estilos responsivos */
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu li {
+        margin: 5px 0;
+    }
+}
+
+
+
+
+
+

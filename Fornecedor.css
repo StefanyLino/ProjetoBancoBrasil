@@ -1,0 +1,306 @@
+/* Fonte importada */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+/* Alteração de configurações básicas e fonte */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif; 
+}
+
+nav {
+    width: 216vh;
+    height: 65px;
+    background: #f2e205;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+    position: fixed;
+    z-index: 1;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 0 1.5rem;
+    font-weight: bold;
+    margin-right: 8px;
+    transition: 0.2s;
+}
+
+nav a:hover{
+    background-color:#decf04;
+    border-radius: 3px;
+}
+
+/* Configuração de Div (disposição, tamanho e fundo) */
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: rgb(208,195,14);
+    background: linear-gradient(90deg, rgb(210, 210, 210) 0%, #efefef 35%, rgb(255, 255, 255) 100%);
+    z-index: 1;
+}
+
+/* Configuração do fundo branco (tamanho, fundo, bordas e efeito) */
+.card {
+    margin-top: 85px;
+    margin-bottom: 10px;
+    width: 5%; 
+    max-width: 450px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 20px rgba(148, 108, 8, 0.03);
+}
+
+.card h2{
+    text-align: center;
+    color: #204f8c;
+    
+}
+
+.card2{ 
+    max-width: 1050px;
+    font-size: 15px;
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 5%;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 20px rgba(148, 108, 8, 0.03);
+    position: relative;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px 20px rgba(148, 108, 8, 0.03);
+    z-index: 0;
+}
+
+
+.card2 h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+table {
+    position: relative; 
+    width: 100%; 
+    z-index: 1; 
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px #75747455;
+    background-color: #e9e9e9;
+    margin-bottom: 10px;
+}
+
+/* Configuração dos formulários (disposição) */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+/* Configuração dos formulários (bordas, transição, tamanho e cor) */
+.campo {
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    transition: all linear 190ms;
+    font-size: 0.9em;
+    color: #444;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+.campo::placeholder {
+    color: #666;
+}
+
+.campo:focus {
+    border-color: #f2e205;
+}
+
+/* Configuração do botão de cadastro */
+.btn {
+    padding: 15px;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+    background-color: #204f8c;
+    cursor: pointer;
+    transform: all linear 190ms;
+    align-content: center;
+    display: inline-block; /* Para se comportar como um bloco */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: 0.3s;
+    margin-bottom: 15px;
+}
+
+/* Hover do botão */
+.btn:hover {
+    transform: scale(1.04);
+    background-color: #11376A;
+}
+
+/* Ocultar o botão padrão */
+.input-file {
+    display: none;
+}
+
+/* Criar um botão estilizado */
+.label-file {
+    height: 15px;
+    background-color: #204f8c; 
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 12.5px; 
+    font-weight: bold;  
+    transition: background-color 0.3s ease; 
+}
+
+/* Alterar cor ao passar o mouse */
+.label-file:hover {
+    background-color: #11376A;
+}
+
+/* Configuração dos Links */
+a {
+    font-size: 0.9em;
+    color: #204f8c;
+    text-decoration: none;
+}
+
+th{
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+}
+
+td{
+    padding: 0.5rem 1rem;
+}
+
+/* Container para organizar os botões */
+.botoes-container {
+    display: flex; /* Organiza os botões em linha */
+    flex-direction: column; /* Empilha os botões em coluna */
+    gap: 10px; /* Espaçamento entre os botões */
+    align-items: flex-start; /* Alinha à esquerda */
+}
+
+/* Botão "Editar" */
+.editar {
+    justify-content: center;
+    border-radius: 7px;
+    background-color: #204f8c;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    transition: 0.2s;
+}
+
+.editar:hover{
+    background-color: #11376A;
+}
+
+/* Botão "Excluir" */
+.excluir {
+    position: relative;
+    top: 20px;
+    border-radius: 7px;
+    background-color: #f2e205;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+.excluir:hover{
+    background-color: #decf04;
+}
+
+
+/* Media Queries - Responsividade */
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column; 
+        height: auto; /* Ajusta a altura */
+        font-size: small;
+        width: 100%;
+    }
+
+    nav a {
+        padding: 10px; 
+    }
+    .card {
+        padding: 1rem; /* Reduz o padding do card em telas pequenas */
+        align-items: center;
+        position: relative;
+        justify-content: center;
+        margin-top: -30px; 
+        margin-left: 15px;
+
+    }   
+}
+
+/* Tablet */
+@media (min-width:768px) and (max-width:1023px) {
+    .page {
+        height: 200vh;
+    }
+
+    img {
+        width: 100%;
+        margin-bottom: 0px; 
+    }
+
+    .card {
+        width: 100%; 
+        padding: 20px; 
+    }
+}
+
+/* Desktop */
+@media (min-width:1024px) {
+    .page {
+        height: auto;
+    }
+
+    img {
+        width: 100%;
+        margin-bottom: 0px; 
+    }
+
+    .card {
+        width: 50%; 
+        padding: 20px; 
+    }
+}
