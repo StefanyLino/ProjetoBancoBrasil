@@ -15,7 +15,7 @@
 </head>
 <body>
     <nav>
-        <div class="logo"><img src="Imagens/Logo.png" height="50px" alt="Logo"></div>
+        <div class="logo"><a href="home.php"><img src="Imagens/Logo.png" height="50px" alt="Logo"></a></div>
         <div class="nav-items">
             <a href="home.php"><i class="fa-solid fa-house"></i>&nbsp;HOME</a>
             <a href="index.php"><i class="fa-solid fa-folder"></i>&nbsp;Sistema de Cadastro</a>
