@@ -17,15 +17,17 @@ O projeto didático proposto para o Banco do Brasil foca na criação de uma apl
 **Stefany Lino Silva (Scrum Master)** - Responsável pela programação/código e documentação <br>
 **Isabelle Pacheco Silva (DEV)** - Responsável pela documentação e pesquisas<br>
 
+#
+
 ### Prototipagem
 
-A prototipagem foi realizada utilizando a plataforma [Figma](https://www.figma.com/design/47tsbp1FsvVNjdpXneZd8K/Banco-do-Brasil?node-id=0-1&node-type=canvas&t=t2RrVy7kgUxW12gf-0), onde foi planejado o front-end da página web. Foram desenvolvidas versões para desktop e mobile, respeitando a paleta de cores da marca e garantindo uma experiência visual consistente e atraente em diferentes dispositivos. Essa abordagem permite um design mais adaptado às necessidades dos usuários, promovendo uma navegação fluida e intuitiva.
+A prototipagem foi realizada utilizando a plataforma [Figma](https://www.figma.com/design/47tsbp1FsvVNjdpXneZd8K/Banco-do-Brasil?node-id=0-1&node-type=canvas&t=t2RrVy7kgUxW12gf-0), onde foi planejado o front-end da página web. Foi desenvolvida a versão para desktop, respeitando a paleta de cores da marca e garantindo uma experiência visual consistente e atraente em diferentes dispositivos. Essa abordagem permite um design mais adaptado às necessidades dos usuários, promovendo uma navegação fluida e intuitiva.
 
 ![Login](https://github.com/user-attachments/assets/fab56635-507d-4559-ad1e-2896bf2e5e26)
 ![SistemaCadastro](https://github.com/user-attachments/assets/72cdbea4-441f-41d9-917d-3b7980652e1e)
 
 
-<hr>
+#
 
 ### Cronograma
 
@@ -38,17 +40,18 @@ Versão Kanban
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/848af105-11ca-49a6-9293-96a450b9a92c"><br>
 Versão Scrum
 
+#
 
 ### Programação/Código
 
->A programação deste projeto foi desenvolvida utilizando uma combinação estratégica de HTML, CSS, PHP e SQL, cada qual desempenhando um papel fundamental na criação de uma aplicação robusta e eficiente. HTML e CSS foram utilizados para construir uma interface responsiva, acessível e visualmente atraente, com atenção especial à organização estrutural dos elementos e à estilização cuidadosa para garantir uma experiência do usuário fluida e intuitiva.
->A integração do PHP com o banco de dados SQL foi crucial para implementar funcionalidades dinâmicas e assegurar o gerenciamento eficiente de informações. O PHP atuou como a ponte entre a interface do usuário e o banco de dados, facilitando operações como o armazenamento, consulta, atualização e exclusão de dados. Já o SQL foi empregado para estruturar, organizar e otimizar o banco de dados, garantindo segurança, confiabilidade e eficiência no tratamento das informações.
+A programação deste projeto foi desenvolvida utilizando uma combinação estratégica de HTML, CSS, PHP e SQL, cada qual desempenhando um papel fundamental na criação de uma aplicação robusta e eficiente. HTML e CSS foram utilizados para construir uma interface responsiva, acessível e visualmente atraente, com atenção especial à organização estrutural dos elementos e à estilização cuidadosa para garantir uma experiência do usuário fluida e intuitiva.<br>
+A integração do PHP com o banco de dados SQL foi crucial para implementar funcionalidades dinâmicas e assegurar o gerenciamento eficiente de informações. O PHP atuou como a ponte entre a interface do usuário e o banco de dados, facilitando operações como o armazenamento, consulta, atualização e exclusão de dados. Já o SQL foi empregado para estruturar, organizar e otimizar o banco de dados, garantindo segurança, confiabilidade e eficiência no tratamento das informações.
 
 
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/5362a1cc-f917-481a-b617-1eeba18783aa"><br>
-Declaração de estilos CSS (exemplo).
+>Declaração de estilos CSS (exemplo).
 
-Após esses passos, juntamos todo o conteúdo produzido em um arquivo de texto, criando uma documentação seguindo as normas ABNT. 
+#
 
 ### Modelagem
 Para a elaboração do Banco de Dados, fizemos a modelagem e o SQL 
@@ -81,8 +84,8 @@ Para a elaboração do Banco de Dados, fizemos a modelagem e o SQL
 
 <hr>
 
-### Na conclusão do projeto...
->Ao comparar o planejado com o executado, o projeto conseguiu atender aos principais objetivos propostos, criando uma plataforma responsiva e funcional para o gerenciamento de fornecedores e produtos do Banco do Brasil. O uso de HTML e CSS atenderam plenamente às necessidades de interface e design, enquanto a integração de conceitos de SQL e PHP garantiu a total funcionalidade do site. Essa combinação possibilitou o armazenamento eficiente de dados de cadastro, tornando o sistema ainda mais sofisticado e funcional.<br>
->Em conclusão, o projeto permitiu ao grupo consolidar conhecimentos fundamentais em desenvolvimento web, abrangendo desde a estruturação e design responsivo até a implementação de funcionalidades com PHP e SQL. Apesar dos desafios enfrentados, como a compatibilização de interfaces em diferentes dispositivos e os ajustes necessários na lógica do PHP, todas as dificuldades foram superadas. O resultado final foi um site funcional, esteticamente refinado e capaz de atender plenamente às demandas propostas, refletindo o crescimento técnico e colaborativo dos integrantes ao longo do processo.
+### CONCLUSÃO...
+Ao comparar o planejado com o executado, o projeto conseguiu atender aos principais objetivos propostos, criando uma plataforma responsiva e funcional para o gerenciamento de fornecedores e produtos do Banco do Brasil. O uso de HTML e CSS atenderam plenamente às necessidades de interface e design, enquanto a integração de conceitos de SQL e PHP garantiu a total funcionalidade do site. Essa combinação possibilitou o armazenamento eficiente de dados de cadastro, tornando o sistema ainda mais sofisticado e funcional.<br>
+Em conclusão, o projeto permitiu ao grupo consolidar conhecimentos fundamentais em desenvolvimento web, abrangendo desde a estruturação e design responsivo até a implementação de funcionalidades com PHP e SQL. Apesar dos desafios enfrentados, como a compatibilização de interfaces em diferentes dispositivos e os ajustes necessários na lógica do PHP, todas as dificuldades foram superadas. O resultado final foi um site funcional, esteticamente refinado e capaz de atender plenamente às demandas propostas, refletindo o crescimento técnico e colaborativo dos integrantes ao longo do processo.
 
 
