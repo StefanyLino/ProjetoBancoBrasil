@@ -75,7 +75,7 @@ Para a elaboração do Banco de Dados, fizemos a modelagem e o SQL
 > - Entidades - Tabela no Banco de Dados<br>
 > - Atributos - As colunas<br>
 > - Relacionamentos - Ligação entre tabelas<br>
-> Define tipos de dados, chaves primárias (identificador único de cada tabela), chaves estrangeiras (ligações entre uma tabela e outra) e cardinalidades (quantidade de elementos que se relacionam entre si).
+> Define tipos de dados, chaves primárias (identificador único de cada tabela), chaves estrangeiras (ligações entre uma tabela e outra) e cardinalidades (quantidade de elementos que se relacionam entre si).<br>
 ![image](https://github.com/user-attachments/assets/b316742a-587c-4f45-96a0-4b36fced4f0d)
 
 ##### Modelo Físico
